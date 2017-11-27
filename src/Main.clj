@@ -1,5 +1,4 @@
-(ns .Main
-  (:require [clojure.string :as str]))
+(ns polyglots)
 
 
 (def list1 (list 1 2 3))
