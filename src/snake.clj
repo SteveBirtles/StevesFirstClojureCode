@@ -5,7 +5,7 @@
     (java.awt.event ActionListener KeyListener KeyEvent)))
 
 ;------------------------------------------------------
-; FUNCTIONAL MODEL
+; Functional Model
 ;------------------------------------------------------
 
 (def field-width 50)
@@ -20,7 +20,7 @@
    KeyEvent/VK_DOWN  [0 1]})
 
 (defn create-snake []
-  {:body      (list [3 0] [2 8] [1 8] [0 8])
+  {:body      (list [3 0] [2 0] [1 0] [0 0])
    :direction [1 0]
    :type      :snake
    :color     (Color. 15 160 70)})
